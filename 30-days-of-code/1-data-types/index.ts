@@ -24,15 +24,16 @@ function main() {
   let double: number = 4.0;
   const str: string = "HackerRank";
 
-  const processInput = (input: any) => {
-    if (typeof input === "string" && isNaN(Number(input))) {
-      return console.log(str + " " + input);
+  const processInput = (input: string) => {
+    const print = (value: string | number) => console.log(value);
+    if (isNaN(Number(input))) {
+      return print(str + " " + input);
     }
     const hasDecimal = input.includes(".");
     if (hasDecimal) {
-      return console.log((double + Number(input)).toFixed(1));
+      return print((double + Number(input)).toFixed(1));
     }
-    return console.log(integer + Number(input));
+    return print(integer + Number(input));
   };
 
   const firstInput = readLine();
