@@ -1,0 +1,28 @@
+{
+  "name": "data-structures-and-algorithms",
+  "version": "1.0.0",
+  "description": "Solving DSAs one level at a time!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jennievon/data-structures-and-algorithms.git"
+  },
+  "keywords": [
+    "dsa",
+    "data",
+    "structures",
+    "algorithms"
+  ],
+  "author": "Jennifer Echenim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jennievon/data-structures-and-algorithms/issues"
+  },
+  "homepage": "https://github.com/Jennievon/data-structures-and-algorithms#readme",
+  "devDependencies": {
+    "@types/node": "^18.16.1"
+  }
+}
