@@ -24,10 +24,12 @@ function readLine(): string {
 
 function main() {
   const n: number = parseInt(readLine().trim(), 10);
+  // ensure to validate wrt constraints for n
   if (n <= 1 || n >= 21) {
     return;
   }
 
+  // start loop from 1 and end at 10, wrt to constraints given for i
   for (let i = 1; i <= 10; i++) {
     console.log(`${n} x ${i} = ${n * i}`);
   }
