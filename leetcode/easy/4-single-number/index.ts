@@ -14,9 +14,25 @@ function singleNumber(nums: number[]): number {
 }
 
 // EXPLANATION:
-// So, if we XOR a number with itself, we get 0.
-// If we XOR a number with 0, we get the number itself.
-// So, if we XOR all the numbers in the input array, we will be left with the number that is not repeated.
+// So, if we XOR a number with itself, we get 0. a^a = 0
+// If we XOR a number with 0, we get the number itself. a^0 = a
+// So, if we XOR all the numbers in the input array, we will be left with the number that is not repeated. //
+
+// EXAMPLE:
+// Input: [2, 3, 2, 4, 4]
+// let stat = 0;
+// stat = 0 ^ 2 = 2
+// stat = 2 ^ 3 = 1
+// stat = 1 ^ 2 = 3
+// stat = 3 ^ 4 = 7
+// stat = 7 ^ 4 = 3
+// stat = 3 ^ 0 = 3
+// Output: 3
+
+// Note:
+// XOR is a bitwise operator that returns 1 if both bits are different,
+// and 0 if both bits are the same.
+// 2^3 means 0010 XOR 0011 = 0001
 
 // TIME COMPLEXITY: O(n)
 // SPACE COMPLEXITY: O(1)
