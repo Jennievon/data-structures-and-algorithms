@@ -24,5 +24,8 @@
   "homepage": "https://github.com/Jennievon/data-structures-and-algorithms#readme",
   "devDependencies": {
     "@types/node": "^18.16.1"
+  },
+  "dependencies": {
+    "typescript": "^5.0.4"
   }
 }
