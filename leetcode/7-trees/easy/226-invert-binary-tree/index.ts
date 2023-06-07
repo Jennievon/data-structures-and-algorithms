@@ -15,11 +15,13 @@ function invertTree(root: TreeNode | null): TreeNode | null {
     return null;
   }
 
-  const left = invertTree(root.left);
-  const right = invertTree(root.right);
+  const temp = root.left; // Store the left child in a temp variable
+  root.left = root.right; // Set the left child to the right child
+  root.right = temp; // Set the right child to the temp variable
 
-  root.left = right;
-  root.right = left;
+  // Recursively invert the left and right subtrees
+  invertTree(root.left);
+  invertTree(root.right);
 
   return root;
 }
