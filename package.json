@@ -26,6 +26,7 @@
     "@types/node": "^18.16.1"
   },
   "dependencies": {
+    "@types/jest": "^29.5.2",
     "typescript": "^5.0.4"
   }
 }
