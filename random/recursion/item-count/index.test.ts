@@ -1,5 +1,5 @@
 import { countNumberOfItemsWithRecursion } from ".";
-import { ListNode } from "../../types";
+import { ListNode } from "../../../types";
 
 /*
 Code Analysis

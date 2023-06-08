@@ -1,4 +1,4 @@
-import { ListNode } from "../../types";
+import { ListNode } from "../../../types";
 
 export function countNumberOfItemsWithRecursion(node: ListNode | null): number {
   if (node === null) {
