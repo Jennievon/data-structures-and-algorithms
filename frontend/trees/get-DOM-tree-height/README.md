@@ -1,0 +1,21 @@
+Height of a tree is the maximum depth from root node. Empty root node have a height of 0.
+
+If given DOM tree, can you create a function to get the height of it?
+
+For the DOM tree below, we have a height of 4.
+
+```htm
+<div>
+  <div>
+    <p>
+      <button>Hello</button>
+    </p>
+  </div>
+  <p>
+    <span>World!</span>
+  </p>
+</div>
+```
+
+Can you solve this both recursively and iteratively?
+
